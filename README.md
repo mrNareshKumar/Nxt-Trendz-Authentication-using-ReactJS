@@ -1,4 +1,4 @@
-# LIVE DEMO :-  <a href="https://nxtloginAuthnk.ccbp.tech">Nxt Trendz Login Authentication</a>
+# LIVE DEMO :-  <a href="https://nxtloginAuthnk.ccbp.tech/login">Nxt Trendz Login Authentication</a>
 ### username: rahul </br>
 ### passwordd:rahul@2021
 
