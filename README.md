@@ -1,6 +1,6 @@
 # LIVE DEMO :-  <a href="https://nxtloginAuthnk.ccbp.tech/login">Nxt Trendz Login Authentication</a>
 ### username: rahul </br>
-### passwordd:rahul@2021
+### password:rahul@2021
 
 In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now.
 
