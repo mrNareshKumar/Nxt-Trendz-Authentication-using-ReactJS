@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+.nav_header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav_website_logo {
+  width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .nav_website_logo {
+    width: 165px;
+  }
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1;
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .nav_menu {
+    display: none;
+  }
+}
+
+.nav_link {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.logout_desktop_btn {
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .logout_desktop_btn {
+    display: none;
+  }
+}
+
+.logout_mobile_btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+}
+@media screen and (min-width: 768px) {
+  .logout_mobile_btn {
+    display: none;
+  }
+}
+
+.logout_icon {
+  width: 24px;
+}

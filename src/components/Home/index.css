@@ -1,0 +1,101 @@
+/* Write your CSS code here */
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .home_container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+}
+
+.home_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .home_content {
+    align-items: flex-start;
+  }
+}
+
+.home_heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home_heading {
+    font-size: 46px;
+    text-align: left;
+  }
+}
+
+.home_mobile_image {
+  width: 206px;
+}
+@media screen and (min-width: 768px) {
+  .home_mobile_image {
+    display: none;
+  }
+}
+
+.home_desktop_image {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+@media screen and (max-width: 767px) {
+  .home_desktop_image {
+    display: none;
+  }
+}
+
+.home_description {
+  font-family: 'Roboto';
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home_description {
+    font-size: 18px;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.shop_now_button {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .shop_now_button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
